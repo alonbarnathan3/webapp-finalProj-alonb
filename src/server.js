@@ -16,10 +16,14 @@ app.use(express.static(path.join(__dirname, '..', 'public')));
 
 var handler = require("./dataHandler");
 
+app.use(cors({
+  origin: 'https://webapp-final-proj-alonb.vercel.app',
+}));
+
 
 app.post('/users', async (req, res) => {
 
-    handler.saveToFile(request.body)
+    // handler.saveToFile(request.body)
 
     const userName = req.body.userName;
     const result = await find(userName);
@@ -40,7 +44,7 @@ app.post('/users', async (req, res) => {
 
 app.post('/scores', async (req, res) => {
 
-    handler.saveToFile(request.body)
+    // handler.saveToFile(request.body)
 
     const userName = req.body.userName;
     const level = req.body.level;
@@ -65,7 +69,7 @@ app.post('/scores', async (req, res) => {
 
 app.get('/results', async (req, res) => {
 
-  handler.saveToFile(request.body)
+  // handler.saveToFile(request.body)
 
   const _list = await list();
   res.status(200).json(_list);
