@@ -23,6 +23,23 @@ The Snake Game Web Application is a simple browser-based game that allows users 
 
 ## Getting Started
 
+**Function list**
+## Functions List / Table
+
+| Function Name     | Parameters                         | Process                                            | Returned Value                               |
+|-------------------|-----------------------------------|----------------------------------------------------|----------------------------------------------|
+| `addUser`         | `userName` (string)               | Adds a new user with default scores to the database| None                                         |
+| `find`            | `userName` (string)               | Finds a user's data in the database               | User's data object or `null`                 |
+| `update`          | `userName` (string), `updatedFiled` (object) | Updates a user's data in the database   | None                                         |
+| `list`            | None                              | Retrieves all users' data from the database       | Array of user data objects or `null`         |
+| `createUser`      | `userName` (string)               | Sends a POST request to create a new user         | Response object or `null`                    |
+| `getScores`       | None                              | Sends a GET request to fetch scores from the API  | Array of scores data or `null`               |
+| `calculateAverage`| `data` (array), `scoreProperty` (string) | Calculates average score from data       | Average score value                          |
+| `returnToLoginPage` | None                          | Redirects to the login page                      | None                                         |
+| `populateTable`   | `data` (array), `tableId` (string) | Populates an HTML table with data                | None                                         |
+| `DOMContentLoaded` | None                          | Event listener when the DOM is loaded            | Executes code on page load                   |
+
+
 ### Prerequisites
 
 - A modern web browser (Chrome, Firefox, Safari, etc.)
