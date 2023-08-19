@@ -49,7 +49,7 @@ async function createUser(userName) {
       console.log("response scores", scores);
       console.log("begginers", beginners);
       console.log("intermediate", intermediate);
-      console.log("expert", beginners);
+      console.log("expert", expert);
 
       
       const loginForm = document.getElementById('login-form');
