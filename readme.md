@@ -34,23 +34,27 @@ The Snake Game Web Application is a simple browser-based game that allows users 
 
    ```bash
    git clone https://github.com/your-username/snake-game.git
+   ```
 
 
 1. Navigate to the project directory:
 
 ```bash
 cd snake-game
+```
 
 2. Install the required dependencies:
 
 ```bash
 npm install
+```
 
 **Usage**
 1. Start the server:
 
 ```bash
 npm start
+```
 
 2. Open your web browser and navigate to http://localhost:3000.
 
