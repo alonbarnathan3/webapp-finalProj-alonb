@@ -1,4 +1,4 @@
-##Snake Game Web Application
+**Snake Game Web Application**
 The Snake Game Web Application is a simple browser-based game that allows users to play the classic Snake game. Players control a snake to collect food items and grow longer while avoiding collisions with walls and the snake's own body.
 
 #Table of Contents
