@@ -1,5 +1,5 @@
-const APP_URL = 'http://127.0.0.1:8000';
-// const APP_URL = 'http://localhost';
+// const APP_URL = 'https://webapp-final-proj-alonb.vercel.app';
+const APP_URL = 'http://localhost:3000';
 async function createUser(userName) {
     try {
       // const response = await fetch('https://web-workshop-gules.vercel.app', {
@@ -76,6 +76,9 @@ async function createUser(userName) {
         }
 
         const queryString = `?username=${username}&level=${level}&snakecolor=${snakecolor}&Foodcolor=${Foodcolor}&bestScore=${bestScore}`;
-        window.location.href = `game.html${queryString}`;
+        // window.location.href = `game.html${queryString}`;
+
+        window.location.href = `${APP_URL}/game.html${queryString}`;
+
       });
     });

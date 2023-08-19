@@ -1,5 +1,5 @@
-const APP_URL = 'http://127.0.0.1:8000';
-// const APP_URL = 'http://localhost';
+// const APP_URL = 'https://webapp-final-proj-alonb.vercel.app';
+const APP_URL = 'http://localhost:3000';
 function ScoreBoard() {
   // Redirect to index.html
   window.location.href = 'scores.html';

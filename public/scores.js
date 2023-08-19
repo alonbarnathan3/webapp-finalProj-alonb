@@ -1,5 +1,5 @@
-const APP_URL = 'http://127.0.0.1:8000';
-// const APP_URL = 'http://localhost';
+// const APP_URL = 'https://webapp-final-proj-alonb.vercel.app';
+const APP_URL = 'http://localhost:3000';
 
 async function list() {
   // const response = await fetch('https://web-workshop-gules.vercel.app', {method: 'GET'})
