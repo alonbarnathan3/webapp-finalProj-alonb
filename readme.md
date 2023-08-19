@@ -1,47 +1,56 @@
-**Snake Game Web Application**
+# Snake Game Web Application
+
 The Snake Game Web Application is a simple browser-based game that allows users to play the classic Snake game. Players control a snake to collect food items and grow longer while avoiding collisions with walls and the snake's own body.
 
-#Table of Contents
-Features
-Getting Started
-Prerequisites
-Installation
-Usage
-Configuration
-API
-MongoDB Database
-Contributing
-License
-Features
-Play the classic Snake game directly in your browser.
-Customize gameplay by choosing different skill levels and snake/food colors.
-View and compare high scores for different skill levels.
-Getting Started
-Prerequisites
-A modern web browser (Chrome, Firefox, Safari, etc.)
-Node.js and npm (for running the server and scripts)
-Installation
-Clone this repository to your local machine:
-bash
-Copy code
-git clone https://github.com/your-username/snake-game.git
+## Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [API](#api)
+- [MongoDB Database](#mongodb-database)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Play the classic Snake game directly in your browser.
+- Customize gameplay by choosing different skill levels and snake/food colors.
+- View and compare high scores for different skill levels.
+
+## Getting Started
+
+### Prerequisites
+
+- A modern web browser (Chrome, Firefox, Safari, etc.)
+- Node.js and npm (for running the server and scripts)
+
+### Installation
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/snake-game.git
 Save to grepper
 Navigate to the project directory:
+
 bash
 Copy code
 cd snake-game
-Save to grepper
 Install the required dependencies:
+
 bash
 Copy code
 npm install
-Save to grepper
 Usage
 Start the server:
+
 bash
-Copy code
+
 npm start
-Save to grepper
 Open your web browser and navigate to http://localhost:3000.
 
 The game's login page will be displayed. Enter your username, choose a skill level, and select snake and food colors. Then click the "Login" button to start playing.
@@ -54,10 +63,10 @@ Click the "Start Again" button to restart the game or the "Switch User" button t
 
 Click the "Score Board" button to view the top scores for different skill levels.
 
-#Configuration
+Configuration
 The game allows users to customize gameplay by choosing their username, skill level, snake color, and food color. The game's appearance can be modified through the CSS styles in the HTML files.
 
-#API
+API
 The application includes an API that interacts with a MongoDB database to manage user data and scores. The API functions are located in the api.js file.
 
 To set up the API:
