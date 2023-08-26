@@ -76,5 +76,5 @@ app.get('/results', async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server running at APP_URL:${port}`);
+  console.log(`Server running at http://localhost:${port}`);
 });
